@@ -1,0 +1,70 @@
+.imageCarousel {
+    height: 50%;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.imageCarousel > img {
+    width: 100%;
+    opacity: 1;
+
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+
+#prev-button, #next-button {
+    display: inline-block;
+    padding: 8px 12px;
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+
+    /*inherit font and color from ancestors*/
+    color: inherit;
+    font: inherit;
+
+    line-height: normal;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    -webkit-appearance: none;
+
+    cursor: pointer;
+
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+
+    border-radius: 50%;
+
+    transition: background-color opacity 0.5s ease;
+    -webkit-transition: background-color opacity 0.5s ease;
+    -moz-transition: background-color opacity 0.5s ease;
+    -o-transition: background-color opacity 0.5s ease;
+
+    transition: color opacity 0.5s ease;
+    -webkit-transition: color opacity 0.5s ease;
+    -moz-transition: color opacity 0.5s ease;
+    -o-transition: color opacity 0.5s ease;
+}
+
+#prev-button:hover, #next-button:hover {
+    color: black;
+    background: white;
+}
+
+#prev-button {
+    position: absolute;
+    top: 25%;
+    margin-left: 5px;
+}
+
+#next-button {
+    position: absolute;
+    top: 25%;
+    margin-right: 10px;
+}
