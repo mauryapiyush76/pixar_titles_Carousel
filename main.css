@@ -57,14 +57,14 @@
     background: white;
 }
 
-#prev-button {
-    position: absolute;
-    top: 25%;
-    margin-left: 5px;
-}
-
 #next-button {
     position: absolute;
     top: 25%;
     margin-right: 10px;
+}
+
+#prev-button {
+    position: absolute;
+    top: 25%;
+    margin-left: 5px;
 }
